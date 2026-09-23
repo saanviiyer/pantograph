@@ -82,8 +82,8 @@ A ridge on composition can rank random sequences well without any rule, so an
 in-distribution probe cannot separate understanding from fitting. The primary
 probe is instead a set of **permutations of one fixed multiset of codons**,
 filtered to hold the residue composition fixed as well. Every count feature is
-constant across it by construction, Gate 0 asserts this precisely, not
-approximately, so nothing is left to predict from except the arrangement of
+constant across it by construction (Gate 0 asserts this with no tolerance), so
+nothing is left to predict from except the arrangement of
 residues along the chain, which is what the fold depends on.
 
 Gate 2 calibrates what a score on it means:
