@@ -1,8 +1,8 @@
-# Pantograph — proposal
+# Pantograph: proposal
 
 Drafted 2026-09-02.
 
-> A pantograph is a linkage that traces a figure exactly. It has no
+> A pantograph is a linkage that traces a figure precisely. It has no
 > representation of the figure. Nothing about its output distinguishes it from
 > a draughtsman.
 
@@ -10,7 +10,7 @@ Drafted 2026-09-02.
 
 Science sandboxes (arXiv:2608.30165) do the right thing: they put an agent in a
 loop with a sealed world and ask whether it can learn the rules rather than
-merely hit the metric. Their headline is that agents often cannot — that they
+merely hit the metric. Their headline is that agents often cannot, that they
 optimise a score without understanding the system, and that their reasoning
 degrades on rules outside familiar biological priors.
 
@@ -36,8 +36,8 @@ the intended one, has to be named and held fixed. Description length and
 searchability are those quantities, and they are not held fixed.
 
 The claim of this project is that when both are fixed, the interesting result
-survives in a form that can be defended, and that a third result — one the
-published design cannot see — appears immediately.
+survives in a form that can be defended, and that a third result, one the
+published design cannot see, appears immediately.
 
 ## The third result, which is already in hand
 
@@ -51,18 +51,18 @@ genetic algorithm at 8.82–8.97 out of 9.
 **The quantitative axis of that sandbox has under one point of dynamic range
 between an agent and a coin.** Every conclusion about whether agents "optimise
 well" on it is a conclusion about a saturated metric. This is `purchase`'s
-finding in a different substrate — measured uplift is null against a competent
-dumb search — and it is `HARNESS` H6 collecting again.
+finding in a different substrate, measured uplift is null against a competent
+dumb search, and it is `HARNESS` H6 collecting again.
 
-That is not an argument against the framework. It is an argument for reporting
+That is not an argument against the sandbox design. It is an argument for reporting
 the trivial baseline in the same table, and for choosing the budget at which
 the axis still separates: Gate 1 puts that at 50–100 rounds, not 500.
 
 ## What is built
 
-A sandbox of the same shape as CodonBox — a hidden encoding from nucleotides to
+A sandbox of the same shape as CodonBox, a hidden encoding from nucleotides to
 a two-letter residue alphabet, a fixed shared physics on the decoded chain, a
-query budget, a notebook — with three changes.
+query budget, a notebook, with three changes.
 
 ### 1. Understanding is a prediction, not a reading
 
@@ -82,8 +82,8 @@ A ridge on composition can rank random sequences well without any rule, so an
 in-distribution probe cannot separate understanding from fitting. The primary
 probe is instead a set of **permutations of one fixed multiset of codons**,
 filtered to hold the residue composition fixed as well. Every count feature is
-constant across it by construction — Gate 0 asserts this exactly, not
-approximately — so nothing is left to predict from except the arrangement of
+constant across it by construction, Gate 0 asserts this precisely, not
+approximately, so nothing is left to predict from except the arrangement of
 residues along the chain, which is what the fold depends on.
 
 Gate 2 calibrates what a score on it means:
@@ -102,12 +102,12 @@ the grid rather than only within a world.
 
 | | familiar | unfamiliar | tokens | bits |
 |---|---|---|---|---|
-| low complexity | `wobble` — a table over base 0 of codon *i* | `offset_base` — a table over base 0 of codon *i+1* | 8 = 8 | 4 = 4 |
-| high complexity | `codon_table` — a table over the three bases of codon *i* | `offset_frame` — a table over bases at offsets 0, 2, 4 | 78 = 78 | 64 = 64 |
+| low complexity | `wobble`, a table over base 0 of codon *i* | `offset_base`, a table over base 0 of codon *i+1* | 8 = 8 | 4 = 4 |
+| high complexity | `codon_table`, a table over the three bases of codon *i* | `offset_frame`, a table over bases at offsets 0, 2, 4 | 78 = 78 | 64 = 64 |
 
 Within a pair the two worlds are the same program with the read offsets
 changed. Identical description length, identical number of bits to determine,
-identical fitness ceiling, and — Gate 0 — indistinguishable to a hill-climber.
+identical fitness ceiling, and (Gate 0) indistinguishable to a hill-climber.
 The only difference is whether the rule respects the reading frame.
 
 Two further worlds, `xor_pair` and `index_gated`, are unfamiliar in the way the
@@ -136,20 +136,20 @@ the claim is stronger than the paper could show, because the pair rules out the
 alternative explanations by construction.
 
 Either outcome is reportable. The one that would void the project is the
-understanding metric failing to resolve anything — every agent at the null on
-every world — which Gate 2's ladder makes checkable in advance and which it
+understanding metric failing to resolve anything, every agent at the null on
+every world, which Gate 2's ladder makes checkable in advance and which it
 currently passes.
 
 ## Relation to the rest of the tree
 
-- `carryover` — the same distinction in a different substrate: executing a
+- `carryover`, the same distinction in a different substrate: executing a
   protocol successfully is a property of the instruction stream, not of the
   experiment. Optimising a fitness score is a property of the search, not of
   the science.
-- `palimpsest` — readout versus representation. There the question is whether
+- `palimpsest`, readout versus representation. There the question is whether
   unlearning removes knowledge or only the answer; here whether a notebook
   reports a rule or only a score.
-- `purchase` — uplift measured against directed evolution was null. Gate 1 is
+- `purchase`, uplift measured against directed evolution was null. Gate 1 is
   the same measurement made on the sandbox's own axis.
-- `crosstalk` — the frameshift control, and H7: the split is the experiment.
+- `crosstalk`, the frameshift control, and H7: the split is the experiment.
   Here the probe is the experiment.

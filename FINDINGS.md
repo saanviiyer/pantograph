@@ -7,7 +7,7 @@ been run.**
 
 ---
 
-## Gate 0 — the world grid, the probes and the null arm
+## Gate 0: the world grid, the probes and the null arm
 
 `scripts/gate0_grid.py`, `results/gate0_grid.json`. 2026-09-02. **PASS.**
 
@@ -24,7 +24,7 @@ ceiling over all 65,536 chains is 9, reached by 143 of them, and the standard
 | `xor_pair` | no | 13 | 4.00 | 9.0 | 1.00 | 0.339 | 0.038 | 0.000 | 0.96 |
 | `index_gated` | no | 26 | 4.75 | 9.0 | 0.60 | 0.135 | 0.040 | 0.000 | 0.94 |
 
-Both pairs are matched exactly on tokens and bits, and within 1.0 on GA median.
+Both pairs are matched precisely on tokens and bits, and within 1.0 on GA median.
 Every world's fitness ceiling is certified at 9 by exhaustive reachability, not
 by sampling.
 
@@ -37,13 +37,13 @@ suite asserts the features are literally equal rather than merely uninformative.
 
 **G0.6 rejected the first unfamiliar high-complexity world.** `scrambled_table`
 read the residue table at `(a·codon + b·position) mod 64`, and carried 75 bits
-against `codon_table`'s 64 — it was harder as well as stranger, which is the
+against `codon_table`'s 64, it was harder as well as stranger, which is the
 confound the project exists to remove. It was replaced by `offset_frame`, the
 same 64-entry table read at offsets 0, 2 and 4, which is the same program with
 different read positions: 78 tokens against 78, 64 bits against 64.
 
 **G0.4 rejected the first null arm.** The surrogate was built on an in-frame
-basis — position-wise nucleotides and codons — and scored 0.447 on
+basis (position-wise nucleotides and codons) and scored 0.447 on
 `codon_table`'s arrangement probe against 0.094 on `offset_frame`'s. The null
 was carrying the reading-frame prior that the pair contrast is supposed to
 measure, so a margin against it would have reported the feature basis's prior
@@ -57,7 +57,7 @@ published claim.
 
 ---
 
-## Gate 1 — the score axis is saturated at the published budget
+## Gate 1: the score axis is saturated at the published budget
 
 `scripts/gate1_budget.py`, `results/gate1_budget.json`. 2026-09-02. 40 seeds.
 
@@ -96,7 +96,7 @@ budget, the uplift is not there.
 
 ---
 
-## Gate 2 — what a number on the arrangement probe means
+## Gate 2: what a number on the arrangement probe means
 
 `scripts/gate2_ladder.py`, `results/gate2_ladder.json`. 2026-09-02. Spearman rho,
 median over 5 probe seeds, 400 sequences each.
@@ -113,7 +113,7 @@ median over 5 probe seeds, 400 sequences each.
 Three things this fixes.
 
 **The metric resolves partial understanding.** The rung between the null and the
-ceiling — having the rule but only a crude additive model of the folding — sits
+ceiling (having the rule but only a crude additive model of the folding) sits
 at 0.39–0.47 in every world. An agent's number can be placed against that,
 rather than against zero.
 
@@ -129,7 +129,7 @@ be a contrast.
 
 ---
 
-## Arm B — the agent arm
+## Arm B: the agent arm
 
 **Unrun.** The session interface, the framing axis, the checkpoint submission
 protocol and the scorer are written and tested end to end against a stand-in

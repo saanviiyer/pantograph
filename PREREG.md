@@ -8,7 +8,7 @@ described as such anywhere in the project. What they established, and what a
 reader should therefore discount:
 
 - the score axis is saturated at 500 rounds and separates at 50–100 (Gate 1);
-- the arrangement probe pins a composition-only predictor to a constant exactly
+- the arrangement probe pins a composition-only predictor to a constant precisely
   and leaves 0.76–0.99 of headroom over the position-aware surrogate (Gate 0);
 - the interpretation ladder is flat across the grid (Gate 2);
 - the matched pairs are matched on tokens, bits and searchability (Gate 0);
@@ -34,7 +34,7 @@ sentence in this project may describe an agent's fitness score as evidence of
 understanding, and the score axis is reported at budget 50 thereafter.
 
 **H2 (the notebook over-credits).** For at least 25% of sessions, an LLM judge
-reading only the notebook — the published adjudication procedure, reproduced —
+reading only the notebook (the published adjudication procedure, reproduced)
 rates the agent as having discovered the rule, while the agent's own submitted
 predictor scores below the `decoder_naive` rung of 0.39 on the arrangement
 probe. The direction is registered: over-crediting, not under-crediting.
@@ -44,7 +44,7 @@ surrogate null on the arrangement probe is above 0.15 in `wobble` and
 `codon_table`, and is not distinguishable from 0 in `index_gated`. This is the
 published result, restated as a number.
 
-**H4 (the confound test — the load-bearing prediction).** With description
+**H4 (the confound test, the load-bearing prediction).** With description
 length, bits and searchability held fixed, the familiar member of a matched
 pair is *not* materially easier:
 
@@ -55,7 +55,7 @@ with bootstrap intervals over sessions covering 0. **This is predicted to
 hold**, against the published claim. If it holds, the reported deterioration on
 off-prior systems is attributable to rule complexity rather than to
 familiarity, and the finding of this project is a negative one about the prior
-explanation. If it fails — if the frame contrast survives matching — the
+explanation. If it fails (if the frame contrast survives matching) the
 published claim is stronger than its own design could show, and that is the
 finding instead.
 
@@ -66,7 +66,7 @@ rule's own structure.
 
 **H6 (budget is spent on search, not on tests).** Median fraction of an agent's
 queries that lie within Hamming distance 3 of a previously queried sequence
-exceeds 0.5 — the brute-force signature the published work describes
+exceeds 0.5, the brute-force signature the published work describes
 qualitatively, made countable.
 
 ---
@@ -129,5 +129,5 @@ one, and what is done about each.
 | fitness ceiling | equal at 9 in every world, certified by exhaustive reachability |
 | the null arm's own frame prior | the surrogate basis contains every dilation, and the pair statistic is a difference in differences; measured asymmetry ≤ 0.053 |
 | coding ability confounded with understanding | bounded by the Gate 2 `decoder_naive` rung; reported, not removed |
-| probe composition | the arrangement probe pins in-frame composition features to a constant exactly |
+| probe composition | the arrangement probe pins in-frame composition features to a constant precisely |
 | interpreter seeding | every seed via SHA-256; all three gates byte-identical under two `PYTHONHASHSEED` values |
