@@ -1,0 +1,54 @@
+{
+  "probe_n": 400,
+  "seeds": 5,
+  "rows": [
+    {
+      "world": "wobble",
+      "familiar": true,
+      "null": 0.166,
+      "wrong_decoder": -0.044,
+      "decoder_naive": 0.393,
+      "decoder_exact": 1.0
+    },
+    {
+      "world": "offset_base",
+      "familiar": false,
+      "null": 0.151,
+      "wrong_decoder": -0.052,
+      "decoder_naive": 0.469,
+      "decoder_exact": 1.0
+    },
+    {
+      "world": "codon_table",
+      "familiar": true,
+      "null": 0.071,
+      "wrong_decoder": 0.015,
+      "decoder_naive": 0.467,
+      "decoder_exact": 1.0
+    },
+    {
+      "world": "offset_frame",
+      "familiar": false,
+      "null": 0.02,
+      "wrong_decoder": 0.003,
+      "decoder_naive": 0.402,
+      "decoder_exact": 1.0
+    },
+    {
+      "world": "xor_pair",
+      "familiar": false,
+      "null": -0.002,
+      "wrong_decoder": -0.032,
+      "decoder_naive": 0.468,
+      "decoder_exact": 1.0
+    },
+    {
+      "world": "index_gated",
+      "familiar": false,
+      "null": 0.055,
+      "wrong_decoder": -0.027,
+      "decoder_naive": 0.408,
+      "decoder_exact": 1.0
+    }
+  ]
+}

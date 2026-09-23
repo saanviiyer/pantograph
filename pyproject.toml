@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pantograph"
+version = "0.1.0"
+description = "A science sandbox in which what an agent found and what an agent understood are separate measurements."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Saanvi Iyer" }]
+keywords = ["science-sandbox", "agent-evaluation", "protein-fitness", "measurement"]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

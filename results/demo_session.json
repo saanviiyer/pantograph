@@ -1,0 +1,821 @@
+{
+  "world": "wobble",
+  "framing": "bio",
+  "budget": 200,
+  "used": 200,
+  "best": 8,
+  "queries": [
+    {
+      "seq": "CGTTTTAGATTGTGACGTTCGACAATCAGAAAACTACCATCACGCCGT",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATTGTGACGTTCGACAATCAGAAAACTACCATCACGCCGT",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATTGTGACGTTCGACAATCAGAAAACTACGATCACGCCGT",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATAGTGACGTTCGACAATCAGAAAACTACGATCACGCCGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATAGTGACGTTCGACAATCAGAAAACTACGATCACGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATAGTGACGTTCGACAATCAGAAAACTACGATCATGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATAGTGACGTTCCACAATCAGAAAACTACGATCATGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATAGTGACGTTCCACAATCAGAAAACTACGATCAGGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGATAGTGACGTTGCACAATCAGAAAACTACGATCAGGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGTTAGTGACGTTGCACAATCAGAAAACTACGATCAGGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGTTAGTGACGTTGCACATTCAGAAAACTACGATCAGGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGTTAGGGACGTTGCACATTCAGAATACTACGATCAGGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGTTAGGGACGTTGCACATTCAGAATACTACGATCGGGACGG",
+      "fitness": 4
+    },
+    {
+      "seq": "CGTTTGAGTTGGGGACGTGGCACATTCAGAATACTACGATCGGGACGG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTTGAGTTGGGGACGTGCCACATTCAGAATACTACGATCGGGACGG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTTGAGTTGGGGCCGTGCCACATTCAGAATACTACGATCGGGACGG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTTGAGTTGGGGCCGTGCCACATTCAGAATACTACGATCGTGACCG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTTGAGTTGGGGCCGTGCCACATTCAGCATACTACGATCGTGACCG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTAGAGTTGGGGCCGTGCCACATTCAGCATACTACGATCGTGACCG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTAGAGTTGGGGCCGTGCCACATTCAGCATACTACGATGGTGACCG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGTTAGGGTTGGGGCCGTGCCACATTCAGCATACTACGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGTTAGGGTTGGGGCCGTGCCAAATTCAGCATACTACGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGTTAGGGTTGGGGCCGTGCCAAATTCAGCATACTACGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGTTAGGGTTGGGGCCGTGGCAAATTCAGCATACTACGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGTTAGGGTTGGTGCCGTGGCAAATACAGCATACTACGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGTTAGGGTTGGTTCCGTGGCAAATACAGCATACTACGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGTTAGGGTTGGTTCCGTGGCAAATACAGCATACTGCGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGTCGGGTTGGTTCCGTGGCAAATACAGCATACTGCGATGGTGACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTCCGTGGCAAATACCGCATACTGCGATGGTGACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTCCGTGGCAAATACCGCATACTGCGATGCTGACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTCCGTGGCAAATAACGCAAACTGCGATGCTGATCG",
+      "fitness": 5
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTCCGTGGCAAATACCGCATACTGCGAAGCTGACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCAAATACCGCATACTGCGAAGCTCACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCAAATACCGCATACTGCGAAGCTCACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCAAATACCGCATACTGTGAAGCTCACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCAAATACCGCATACTGCGAAGCTCACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCAAATACCGCATACTGCGAAGCTCACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCTAATACCGCATACTGCGAAGCTCACCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCCGGTTCGCTACGTGGCTAATACCGCATACTGTGAAGCTCACCT",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCTAATACCGCATACTGCGAAGCTCACCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGTGGCTAATACCGCATACTGCGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATACCGCATACTGCGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACGCATACTGCGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACGCATACTACGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACGCATACTACGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACGCATACGACGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACGCATACGACGAAGCTCTTCT",
+      "fitness": 5
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACGCAAACGACGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAACTCAAACGACGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAGCTCAAACGACGAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGGCTAATAGCTCAAACGACCAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGCCTAATAGCTCAAACGACCAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGCCTAATAGCTCAAACGACCAAGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGCCTAATAGCTCAAACGACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGCCAAATAGCTCAAACGACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGCCAAATAGCTCAAACGACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTATGGGCCAAATAGCTCAAACGACCACGCTCTCCT",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGTCGGGTTCGTTACGGGCCAAATAGCTCCAACAACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCAAATAGCTCCAACAACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCAAATAGCTCCAACAACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCAAGTAGCTCCAACAACCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCAAGTAGCTCCAACATCCACGCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCGAGTAGCTCCAACATCCACGCTCTCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCCAGTAGCTCCAACATCCACGCTCTCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCCAGTAGCTCCACCATCCACTCTCTCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCCAGTAGCTCCACCATCCGCTCTCTCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCCAGTAGGTCCACCATCCGCTCTCTCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCGTTACGGGCCCAGTAGGTCAACCATCCGCTCTCTCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGACGGGTTCTTTACGGGCCCAGTAGGACCACCATCCGCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCTTTACGGGCCCAGTAGGACCACCATGCGCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCTTTACGGGCCCAGTAGGACCACCATGCGCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGCGCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGCGCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGCTCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGTTCTATCTCGT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGTTCTATCTCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGTTCTATCCCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATGTTCTCTACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATCTTCTCTACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCGAGTAGGACCACCATATTCTCTACCCT",
+      "fitness": 7
+    },
+    {
+      "seq": "CCGACGGGTTCTTTCCGGGCCCAGTAGGACCACCATCTTCTCTACACT",
+      "fitness": 7
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCCCAGTAGGACCACCATCTTCTCTACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCCCAGTAGGCCCACCATCTTCTCTACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCACAGTAGGCCCACCATCTTCTCTACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCACAGTAGGCCCACCCTCTTCTCTACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCACAGTAGGCCCACCCTCTTCTCTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCACAGTAGGCCCACCCTCTTCTCTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCACATTAGGCCCACCCTCTTCTCTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGCGGGTTCTTTCCGGGCACATTAGGCCCACCCGCTTCTCTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTCTTTCCGGGCACATTAGGCCCACCCGCTTCTCTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTCTTTCCGGGCACATTAGGCCCACCCGCTTCTCTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTCTTTCCGGGCACATTAGGCCCACCCTCTTCACTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTCTTTCCGGGCACATTAGGCCCACCCTCTTCATTACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTCTTTCCGGGCACATTAGGCACACCCTCTTCATCACCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTTTTCCGGGCACATTAGGCACACCCTCTTCATCACCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTTTTCCGGGCACATTAGGCACACCCTCTTCATCACCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTTTTCCGGGCACATTAGGCACACCCTCTGCATCACCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTTTTCCGGGCACATTAGGCACACCCTCTGCATCACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTTTTCCGGGCACATTAGGCACACCCTCTGCATCACCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTTTTCCGGGCACATTAGGCACACCCTCTACATCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTGTTCCGGGCACATTAGGCACACCCTCTACATCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CCGGGGGGTTTGTTCCGGGCAAATTAGGCACACCCTCTACATCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTGTTCCGGGCAAATTAGGCACACCCTCTACATCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTGTTCCGGGCAAATTAGGCACACCCTCTACAGCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTGTTCCGGGCAAATTAGGCACACCCTCTTCAGCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTGTTCCGGGCAAATTAGGCACATCCTCTTCAGCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTGTTCCGGGCAAATTAGGCACATCCTCTTCAGCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTTTTCCGGGCAAATTAGGCACATCCTCTTCAGCATCCT",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTTTTCCGGGCAAATTAGGCACATCCTCTTCAGCATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTTTTCCGGGCAAATTAGGCACATCCTATTCAGCATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTTTTTCCGGCCAAATTAGGCACATCCTATTCAGCATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTATTTCCGGCCAAATTAGGCACATCCTATTCAGCATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTATTTCCGGCCAAATTAGGCACATCCTATTCAGCATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGGGGGGTTATTTCCGGCCAAATTAGGCACATCCTATTCAGGATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCGGCTAAATTAGGCACATCCTATTCAGGATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCGGCTAAATTAGGCACATCCTATTCAGGATCCA",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCGGCTAAATTAGGCACATCCTATTCAGGATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCCGCTAAATTAGGCACATCCTATTCAGGATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCCGCTAAATTAGGCACATCCTATTCAGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCCGCTAAATTAGGCACATGCTATTCAGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCCGCTAAATTTGGCACATGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTATTTCCCGCTAAATTTGGCACATGCTATTCGGTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTAATTCCCGCTAAATTTGGCACATGCTATTCGGTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTAATTCCCGCTAAATTTGCCACATGCTATTCGGTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGGGGTTAATTCCCGCTAAATTTGCCACATGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGAGGTTAATTCCCGCTAAATTTGCCACATGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGAGGTTAATTCCCGCTAAATTTGCCACAGGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGAGCTTAATTCCCGCTAAATTTGCCACAGGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGAGATTAATTCCCGCTAAATTTGCCACAGGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGAGGTTAATTCCCGCTAAATTTGCCACAGGCTATTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCGAAGTTAATTCCCGCTAAATTTGCCACAGGCTATTGGGTATCCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGCGAGGTTAATTCCCGCTAAATTTGCCACAGGCTATTTGGTATCCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGCGAGGTTAATTCCCGCTAAATATGCCACAGGCTACTCGGTATCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGTTAATTCCCGCTAAATATGCCACAGGCTACTCGGTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTAATTCCCGCTAAATATGCCACAGGCTACTCGGTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTAATTCCCGCTAAATATGCCACAGGCTACTCGCTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTAATCCCCGCTAAATATGCCACAGGCTACTCGCTCTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTAATCCCCGCTAAATATGCCACAGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTAATCCCCGCTAGATATGCCACAGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTATTCCCCGCTAGATATGCCACAGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTATTCCCCGCTAGATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTATTCCCCGCTAGATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTATTCCCCGCTAAATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGGGTATTCCCCGCTAAATATGCCACTGGCTACTCGCACTACG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGGCTAGTGTATTCCCCGCTAAATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGTATTCCACGCTAAATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGGCTAGTGTATTCCCCGCTAAATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCATTCCCCGCTAAATATGCCACTGGCTACTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCATTCCCCGCTAAATATGCCACTGGCTTCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCATCCCCCGCTAAATATGCCACTGGCTTCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCATCCCCCGCTGAATATGCCACTGGCTTCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCATCCCCCGCTGAATATGCCACTGGCTGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCACCCCCCGCTGAATATGCCACTGGCTGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCACCCCCCGCTGATTATGCCACTGGCTGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGAGCACCCCCCGCTGATTATGCCACTGGCTGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGAGCACCCCCCGCTGATTATGCCACTGGCTGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGAGCAACCCCCGCTGATTATGCCACTGGCTGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGAGCAACCCCCGCTGATTATGCCACTGGCCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGAGCAACCCCCGCTGATTATGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGAGCAACCCCCGCTGAATATGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGGCTAGTGCAACCCCCGCTGAATATGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTAGTGCAACCCCCGCTGAATATGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGCTGAATATGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGCTGAATAAGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGGAGAATAAGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGGAGAATAAGCCACTGACCGCTCGCACTCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGGAGAATAAGCCACTGACCGCTCGCACACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGGAGAATAAGCCACTGACCGCTCGCACACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGAAACCCCCGGAGAATAAGCCGCTGACCGCTCGCACACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGGAGAATAAGCCACTGACCGCTCGCACAACG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGGAGAATAAGCCACCGACCGCTCGCACACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTATTGCAACCCCCGTAGAATAAGCCACCGACCGCTCGCACACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGCCTTTTGCAACCCCCGGAGAATAAGCCACCGACCGCTCGCACACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAACCCCCGGAGAATAAGCCACCGACCGCTCGCATACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCGTTCGCATACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCCTTCGCATACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCCTTCGCATACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGTAGAATAAGCCACCGACCCTTCGCATACCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCCTTCGCATACCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCTTTCGCATACCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCCTTCGCATGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGTAGAATAAGCCACCGACCCTTCGCATGCCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCCCGGAGAATAAGCCACCGACCCTTCGCATGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGCCTCGGAGAATAAGCCACCGACCCTTCGCATGCCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGAGAATAAGCCACCGACCCTTCGCATGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGAGAATAAGCCACAGACCCTTCGCATGACG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGAGAATAAGCCACCGACCCTTCGCATGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGAGAATAAGCCAGCGACCCTTCGCATGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGTGAATAAGCCAGCGACCCTTCGCATGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGTGAATAAGCCAGCGACCCTTCGCAAGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCCTTTTGCAAGTCCCGGTGAATAAGCCAGCGACCCTTCGCAAGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCCGGTGAATAAGCCAGCGACCCTTCGCAAGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCTGGTGAATAAGCCATCGACCCTTCGCAAGCCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCCGGTGAATAAGCCAGCGACTCTTCGCAAGCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCCGATGAATAAGCCAGCGACTCTTCGCGAGCCG",
+      "fitness": 7
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCCGGTGAATAAGCCAGCGATTCTTCGCAACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCCGGTTAATAAGCCAGCGATTCTTCGCAACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCATTTTGCAAGTCCCGTTTAATAAGCCAGCGATTCTTCGCAACCCG",
+      "fitness": 6
+    },
+    {
+      "seq": "CGCATTTTGCAACTCCCGGTTAATAAGCCAGCGATTCTTCGCAACCCG",
+      "fitness": 8
+    },
+    {
+      "seq": "CGCATTTTGCAACTCCCGGTTAATAAGCCAGCGATTCTTCGCAACACG",
+      "fitness": 6
+    }
+  ],
+  "notebook": [
+    {
+      "at": 200,
+      "text": "first base looks like it decides"
+    }
+  ],
+  "submissions": [
+    {
+      "at": 200,
+      "src": "TABLE = [0, 1, 1, 0]\ndef predict(seqs):\n    out = []\n    for s in seqs:\n        h = [TABLE['ACGT'.index(s[i*3])] for i in range(16)]\n        out.append(sum(1 for i in range(16) for j in range(i+2,16) if h[i] and h[j]))\n    return out\n"
+    }
+  ]
+}

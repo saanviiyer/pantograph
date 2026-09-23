@@ -1,0 +1,725 @@
+{
+  "seeds": 40,
+  "rows": [
+    {
+      "world": "wobble",
+      "budget": 25,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.58,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "wobble",
+      "budget": 25,
+      "strategy": "hill_climb",
+      "median": 7.0,
+      "mean": 6.35,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "wobble",
+      "budget": 25,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 7.92,
+      "p_ceiling": 0.125
+    },
+    {
+      "world": "wobble",
+      "budget": 50,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.97,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "wobble",
+      "budget": 50,
+      "strategy": "hill_climb",
+      "median": 7.0,
+      "mean": 7.03,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "wobble",
+      "budget": 50,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 8.35,
+      "p_ceiling": 0.375
+    },
+    {
+      "world": "wobble",
+      "budget": 100,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.2,
+      "p_ceiling": 0.2
+    },
+    {
+      "world": "wobble",
+      "budget": 100,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 7.83,
+      "p_ceiling": 0.15
+    },
+    {
+      "world": "wobble",
+      "budget": 100,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.9,
+      "p_ceiling": 0.9
+    },
+    {
+      "world": "wobble",
+      "budget": 250,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.38,
+      "p_ceiling": 0.375
+    },
+    {
+      "world": "wobble",
+      "budget": 250,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.65,
+      "p_ceiling": 0.675
+    },
+    {
+      "world": "wobble",
+      "budget": 250,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.88,
+      "p_ceiling": 0.875
+    },
+    {
+      "world": "wobble",
+      "budget": 500,
+      "strategy": "random",
+      "median": 9.0,
+      "mean": 8.68,
+      "p_ceiling": 0.675
+    },
+    {
+      "world": "wobble",
+      "budget": 500,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.88,
+      "p_ceiling": 0.875
+    },
+    {
+      "world": "wobble",
+      "budget": 500,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.82,
+      "p_ceiling": 0.825
+    },
+    {
+      "world": "offset_base",
+      "budget": 25,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.75,
+      "p_ceiling": 0.025
+    },
+    {
+      "world": "offset_base",
+      "budget": 25,
+      "strategy": "hill_climb",
+      "median": 7.0,
+      "mean": 6.53,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "offset_base",
+      "budget": 25,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 7.92,
+      "p_ceiling": 0.05
+    },
+    {
+      "world": "offset_base",
+      "budget": 50,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.05,
+      "p_ceiling": 0.1
+    },
+    {
+      "world": "offset_base",
+      "budget": 50,
+      "strategy": "hill_climb",
+      "median": 7.5,
+      "mean": 7.5,
+      "p_ceiling": 0.1
+    },
+    {
+      "world": "offset_base",
+      "budget": 50,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 8.28,
+      "p_ceiling": 0.3
+    },
+    {
+      "world": "offset_base",
+      "budget": 100,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.25,
+      "p_ceiling": 0.25
+    },
+    {
+      "world": "offset_base",
+      "budget": 100,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.07,
+      "p_ceiling": 0.275
+    },
+    {
+      "world": "offset_base",
+      "budget": 100,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.78,
+      "p_ceiling": 0.775
+    },
+    {
+      "world": "offset_base",
+      "budget": 250,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.32,
+      "p_ceiling": 0.325
+    },
+    {
+      "world": "offset_base",
+      "budget": 250,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.65,
+      "p_ceiling": 0.65
+    },
+    {
+      "world": "offset_base",
+      "budget": 250,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.82,
+      "p_ceiling": 0.825
+    },
+    {
+      "world": "offset_base",
+      "budget": 500,
+      "strategy": "random",
+      "median": 9.0,
+      "mean": 8.68,
+      "p_ceiling": 0.675
+    },
+    {
+      "world": "offset_base",
+      "budget": 500,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.82,
+      "p_ceiling": 0.825
+    },
+    {
+      "world": "offset_base",
+      "budget": 500,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.88,
+      "p_ceiling": 0.875
+    },
+    {
+      "world": "codon_table",
+      "budget": 25,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.9,
+      "p_ceiling": 0.15
+    },
+    {
+      "world": "codon_table",
+      "budget": 25,
+      "strategy": "hill_climb",
+      "median": 7.5,
+      "mean": 7.33,
+      "p_ceiling": 0.1
+    },
+    {
+      "world": "codon_table",
+      "budget": 25,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 7.85,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "codon_table",
+      "budget": 50,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.1,
+      "p_ceiling": 0.15
+    },
+    {
+      "world": "codon_table",
+      "budget": 50,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.07,
+      "p_ceiling": 0.325
+    },
+    {
+      "world": "codon_table",
+      "budget": 50,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 8.3,
+      "p_ceiling": 0.3
+    },
+    {
+      "world": "codon_table",
+      "budget": 100,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.15,
+      "p_ceiling": 0.15
+    },
+    {
+      "world": "codon_table",
+      "budget": 100,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.38,
+      "p_ceiling": 0.375
+    },
+    {
+      "world": "codon_table",
+      "budget": 100,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.62,
+      "p_ceiling": 0.625
+    },
+    {
+      "world": "codon_table",
+      "budget": 250,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.38,
+      "p_ceiling": 0.375
+    },
+    {
+      "world": "codon_table",
+      "budget": 250,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.88,
+      "p_ceiling": 0.875
+    },
+    {
+      "world": "codon_table",
+      "budget": 250,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.95,
+      "p_ceiling": 0.95
+    },
+    {
+      "world": "codon_table",
+      "budget": 500,
+      "strategy": "random",
+      "median": 9.0,
+      "mean": 8.62,
+      "p_ceiling": 0.625
+    },
+    {
+      "world": "codon_table",
+      "budget": 500,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.95,
+      "p_ceiling": 0.95
+    },
+    {
+      "world": "codon_table",
+      "budget": 500,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.97,
+      "p_ceiling": 0.975
+    },
+    {
+      "world": "offset_frame",
+      "budget": 25,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.78,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "offset_frame",
+      "budget": 25,
+      "strategy": "hill_climb",
+      "median": 7.5,
+      "mean": 7.05,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "offset_frame",
+      "budget": 25,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 7.83,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "offset_frame",
+      "budget": 50,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.05,
+      "p_ceiling": 0.1
+    },
+    {
+      "world": "offset_frame",
+      "budget": 50,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.1,
+      "p_ceiling": 0.225
+    },
+    {
+      "world": "offset_frame",
+      "budget": 50,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 8.22,
+      "p_ceiling": 0.25
+    },
+    {
+      "world": "offset_frame",
+      "budget": 100,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.28,
+      "p_ceiling": 0.275
+    },
+    {
+      "world": "offset_frame",
+      "budget": 100,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.32,
+      "p_ceiling": 0.375
+    },
+    {
+      "world": "offset_frame",
+      "budget": 100,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.7,
+      "p_ceiling": 0.7
+    },
+    {
+      "world": "offset_frame",
+      "budget": 250,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.45,
+      "p_ceiling": 0.45
+    },
+    {
+      "world": "offset_frame",
+      "budget": 250,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.88,
+      "p_ceiling": 0.875
+    },
+    {
+      "world": "offset_frame",
+      "budget": 250,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.9,
+      "p_ceiling": 0.9
+    },
+    {
+      "world": "offset_frame",
+      "budget": 500,
+      "strategy": "random",
+      "median": 9.0,
+      "mean": 8.78,
+      "p_ceiling": 0.775
+    },
+    {
+      "world": "offset_frame",
+      "budget": 500,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.97,
+      "p_ceiling": 0.975
+    },
+    {
+      "world": "offset_frame",
+      "budget": 500,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.93,
+      "p_ceiling": 0.925
+    },
+    {
+      "world": "xor_pair",
+      "budget": 25,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.72,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "xor_pair",
+      "budget": 25,
+      "strategy": "hill_climb",
+      "median": 7.0,
+      "mean": 7.2,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "xor_pair",
+      "budget": 25,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 7.92,
+      "p_ceiling": 0.1
+    },
+    {
+      "world": "xor_pair",
+      "budget": 50,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.0,
+      "p_ceiling": 0.1
+    },
+    {
+      "world": "xor_pair",
+      "budget": 50,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.0,
+      "p_ceiling": 0.225
+    },
+    {
+      "world": "xor_pair",
+      "budget": 50,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 8.35,
+      "p_ceiling": 0.375
+    },
+    {
+      "world": "xor_pair",
+      "budget": 100,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.15,
+      "p_ceiling": 0.15
+    },
+    {
+      "world": "xor_pair",
+      "budget": 100,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.3,
+      "p_ceiling": 0.35
+    },
+    {
+      "world": "xor_pair",
+      "budget": 100,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.72,
+      "p_ceiling": 0.725
+    },
+    {
+      "world": "xor_pair",
+      "budget": 250,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.47,
+      "p_ceiling": 0.475
+    },
+    {
+      "world": "xor_pair",
+      "budget": 250,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.9,
+      "p_ceiling": 0.9
+    },
+    {
+      "world": "xor_pair",
+      "budget": 250,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.93,
+      "p_ceiling": 0.925
+    },
+    {
+      "world": "xor_pair",
+      "budget": 500,
+      "strategy": "random",
+      "median": 9.0,
+      "mean": 8.85,
+      "p_ceiling": 0.85
+    },
+    {
+      "world": "xor_pair",
+      "budget": 500,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 9.0,
+      "p_ceiling": 1.0
+    },
+    {
+      "world": "xor_pair",
+      "budget": 500,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.93,
+      "p_ceiling": 0.925
+    },
+    {
+      "world": "index_gated",
+      "budget": 25,
+      "strategy": "random",
+      "median": 7.0,
+      "mean": 7.0,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "index_gated",
+      "budget": 25,
+      "strategy": "hill_climb",
+      "median": 7.0,
+      "mean": 6.65,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "index_gated",
+      "budget": 25,
+      "strategy": "genetic",
+      "median": 7.0,
+      "mean": 7.03,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "index_gated",
+      "budget": 50,
+      "strategy": "random",
+      "median": 7.0,
+      "mean": 7.38,
+      "p_ceiling": 0.0
+    },
+    {
+      "world": "index_gated",
+      "budget": 50,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 7.65,
+      "p_ceiling": 0.025
+    },
+    {
+      "world": "index_gated",
+      "budget": 50,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 7.62,
+      "p_ceiling": 0.025
+    },
+    {
+      "world": "index_gated",
+      "budget": 100,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 7.62,
+      "p_ceiling": 0.025
+    },
+    {
+      "world": "index_gated",
+      "budget": 100,
+      "strategy": "hill_climb",
+      "median": 8.0,
+      "mean": 8.22,
+      "p_ceiling": 0.275
+    },
+    {
+      "world": "index_gated",
+      "budget": 100,
+      "strategy": "genetic",
+      "median": 8.0,
+      "mean": 8.1,
+      "p_ceiling": 0.175
+    },
+    {
+      "world": "index_gated",
+      "budget": 250,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.05,
+      "p_ceiling": 0.075
+    },
+    {
+      "world": "index_gated",
+      "budget": 250,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.6,
+      "p_ceiling": 0.6
+    },
+    {
+      "world": "index_gated",
+      "budget": 250,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.57,
+      "p_ceiling": 0.575
+    },
+    {
+      "world": "index_gated",
+      "budget": 500,
+      "strategy": "random",
+      "median": 8.0,
+      "mean": 8.1,
+      "p_ceiling": 0.15
+    },
+    {
+      "world": "index_gated",
+      "budget": 500,
+      "strategy": "hill_climb",
+      "median": 9.0,
+      "mean": 8.95,
+      "p_ceiling": 0.95
+    },
+    {
+      "world": "index_gated",
+      "budget": 500,
+      "strategy": "genetic",
+      "median": 9.0,
+      "mean": 8.85,
+      "p_ceiling": 0.85
+    }
+  ]
+}

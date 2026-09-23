@@ -1,0 +1,253 @@
+{
+  "budget": 500,
+  "seeds": 20,
+  "probe_n": 400,
+  "physics": {
+    "ceiling": 9,
+    "n_at_ceiling": 143,
+    "mean": 5.0783,
+    "benchmark_seq": "HPHPPHHPHPPHPHHP",
+    "benchmark_fitness": 6,
+    "benchmark_expected": 6
+  },
+  "worlds": [
+    {
+      "world": "wobble",
+      "familiar": true,
+      "tokens": 8,
+      "bits": 4.0,
+      "note": "first base decides; the other two are silent",
+      "reach_all": true,
+      "random_median": 9.0,
+      "random_max": 9,
+      "random_solved": 0.6,
+      "hill_climb_median": 9.0,
+      "hill_climb_max": 9,
+      "hill_climb_solved": 0.8,
+      "genetic_median": 9.0,
+      "genetic_max": 9,
+      "genetic_solved": 0.85,
+      "null_rho_iid": 0.797,
+      "null_rho_perm": 0.242,
+      "null_rho_ood": 0.852,
+      "counts_rho_perm": 0.0,
+      "frame_null_rho_perm": 0.183,
+      "counts_rho_iid": 0.845,
+      "perm_sd": 0.81,
+      "rule_rho_perm": 1.0,
+      "headroom_perm": 0.758
+    },
+    {
+      "world": "offset_base",
+      "familiar": false,
+      "tokens": 8,
+      "bits": 4.0,
+      "note": "the first base of the *next* codon decides; wraps at the end",
+      "reach_all": true,
+      "random_median": 8.5,
+      "random_max": 9,
+      "random_solved": 0.5,
+      "hill_climb_median": 9.0,
+      "hill_climb_max": 9,
+      "hill_climb_solved": 0.8,
+      "genetic_median": 9.0,
+      "genetic_max": 9,
+      "genetic_solved": 0.9,
+      "null_rho_iid": 0.785,
+      "null_rho_perm": 0.211,
+      "null_rho_ood": 0.857,
+      "counts_rho_perm": 0.0,
+      "frame_null_rho_perm": 0.195,
+      "counts_rho_iid": 0.842,
+      "perm_sd": 0.824,
+      "rule_rho_perm": 1.0,
+      "headroom_perm": 0.789
+    },
+    {
+      "world": "codon_table",
+      "familiar": true,
+      "tokens": 78,
+      "bits": 64.0,
+      "note": "an arbitrary balanced table over all 64 codons",
+      "reach_all": true,
+      "random_median": 9.0,
+      "random_max": 9,
+      "random_solved": 0.75,
+      "hill_climb_median": 9.0,
+      "hill_climb_max": 9,
+      "hill_climb_solved": 1.0,
+      "genetic_median": 9.0,
+      "genetic_max": 9,
+      "genetic_solved": 0.95,
+      "null_rho_iid": 0.275,
+      "null_rho_perm": 0.032,
+      "null_rho_ood": 0.475,
+      "counts_rho_perm": 0.0,
+      "frame_null_rho_perm": 0.063,
+      "counts_rho_iid": 0.841,
+      "perm_sd": 0.74,
+      "rule_rho_perm": 1.0,
+      "headroom_perm": 0.968
+    },
+    {
+      "world": "offset_frame",
+      "familiar": false,
+      "tokens": 78,
+      "bits": 64.0,
+      "note": "the same size of table, read at bases 0, 2 and 4 from the codon start, so the triple straddles the next codon",
+      "reach_all": true,
+      "random_median": 9.0,
+      "random_max": 9,
+      "random_solved": 0.55,
+      "hill_climb_median": 9.0,
+      "hill_climb_max": 9,
+      "hill_climb_solved": 1.0,
+      "genetic_median": 9.0,
+      "genetic_max": 9,
+      "genetic_solved": 0.9,
+      "null_rho_iid": 0.301,
+      "null_rho_perm": 0.085,
+      "null_rho_ood": 0.438,
+      "counts_rho_perm": 0.0,
+      "frame_null_rho_perm": 0.013,
+      "counts_rho_iid": 0.271,
+      "perm_sd": 0.944,
+      "rule_rho_perm": 1.0,
+      "headroom_perm": 0.915
+    },
+    {
+      "world": "xor_pair",
+      "familiar": false,
+      "tokens": 13,
+      "bits": 4.0,
+      "note": "first XOR third base decides; the middle base is silent",
+      "reach_all": true,
+      "random_median": 9.0,
+      "random_max": 9,
+      "random_solved": 0.65,
+      "hill_climb_median": 9.0,
+      "hill_climb_max": 9,
+      "hill_climb_solved": 1.0,
+      "genetic_median": 9.0,
+      "genetic_max": 9,
+      "genetic_solved": 1.0,
+      "null_rho_iid": 0.339,
+      "null_rho_perm": 0.038,
+      "null_rho_ood": 0.52,
+      "counts_rho_perm": 0.0,
+      "frame_null_rho_perm": 0.095,
+      "counts_rho_iid": 0.833,
+      "perm_sd": 0.822,
+      "rule_rho_perm": 1.0,
+      "headroom_perm": 0.962
+    },
+    {
+      "world": "index_gated",
+      "familiar": false,
+      "tokens": 26,
+      "bits": 4.75,
+      "note": "H when (codon value + position) mod m is below t",
+      "reach_all": true,
+      "random_median": 8.0,
+      "random_max": 9,
+      "random_solved": 0.1,
+      "hill_climb_median": 9.0,
+      "hill_climb_max": 9,
+      "hill_climb_solved": 0.95,
+      "genetic_median": 9.0,
+      "genetic_max": 9,
+      "genetic_solved": 0.6,
+      "null_rho_iid": 0.135,
+      "null_rho_perm": 0.04,
+      "null_rho_ood": 0.109,
+      "counts_rho_perm": 0.0,
+      "frame_null_rho_perm": 0.055,
+      "counts_rho_iid": 0.024,
+      "perm_sd": 0.935,
+      "rule_rho_perm": 1.0,
+      "headroom_perm": 0.96
+    }
+  ],
+  "null_basis_asymmetry": [
+    {
+      "pair": [
+        "wobble",
+        "offset_base"
+      ],
+      "frame_basis": [
+        0.183,
+        0.195
+      ],
+      "stride_basis": [
+        0.242,
+        0.211
+      ],
+      "frame_gap": -0.012,
+      "stride_gap": 0.031
+    },
+    {
+      "pair": [
+        "codon_table",
+        "offset_frame"
+      ],
+      "frame_basis": [
+        0.063,
+        0.013
+      ],
+      "stride_basis": [
+        0.032,
+        0.085
+      ],
+      "frame_gap": 0.05,
+      "stride_gap": -0.053
+    }
+  ],
+  "pairs": [
+    {
+      "familiar": "wobble",
+      "unfamiliar": "offset_base",
+      "bits": [
+        4.0,
+        4.0
+      ],
+      "tokens": [
+        8,
+        8
+      ],
+      "genetic_median": [
+        9.0,
+        9.0
+      ],
+      "null_rho_perm": [
+        0.242,
+        0.211
+      ],
+      "bits_matched": true,
+      "search_matched": true
+    },
+    {
+      "familiar": "codon_table",
+      "unfamiliar": "offset_frame",
+      "bits": [
+        64.0,
+        64.0
+      ],
+      "tokens": [
+        78,
+        78
+      ],
+      "genetic_median": [
+        9.0,
+        9.0
+      ],
+      "null_rho_perm": [
+        0.032,
+        0.085
+      ],
+      "bits_matched": true,
+      "search_matched": true
+    }
+  ],
+  "fails": [],
+  "verdict": "PASS"
+}
